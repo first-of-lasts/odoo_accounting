@@ -8,6 +8,7 @@ services:
       - postgres
     ports:
       - "127.0.0.1:8069:8069"
+      - "127.0.0.1:8072:8072"
     volumes:
       - data:/var/lib/odoo
 
